@@ -4,7 +4,7 @@ function MainPage() {
   const navgite = useNavigate()
   return (
     <div className="h-screen bg-[#1e688d] text-white flex flex-col justify-center text-center" >
-      <div className="mb-[10px] mx-auto hover:scale-[1.09] duration-300" onClick={()=> navgite("/quran")}>
+      <div className="mb-[10px] mx-auto hover:scale-[1.09] duration-300 cursor-pointer" onClick={()=> navgite("/quran")}>
       <img src={Logo} alt="logo" className=" rounded-[40px] w-[200px] h-[200px] md:w-[250px] md:h-[250px] " />
       </div>
             <div className="mx-auto"> 
